@@ -15,7 +15,8 @@ body {
 
 .card {
   background-color: #070b12;
-  width: 400px;
+  width: 800px;
+  height: 700px;
   border: 2px solid #e126d9;
   border-radius: 10px;
   overflow: hidden;
@@ -79,7 +80,7 @@ body {
 }
 
 .informations-tabs .information {
-  min-height: 260px;
+  min-height: 420px;
   padding: 15px;
   display: none;
 }
@@ -96,7 +97,7 @@ body {
 
 .informations-tabs .description {
   font-size: 20px;
-  max-height: 180px;
+  max-height: 260px;
   overflow-y: auto;
   padding-right: 15px;
 }
@@ -125,7 +126,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  max-height: 180px;
+  max-height: 300px;
   overflow-y: auto;
 }
 
@@ -133,6 +134,7 @@ body {
   background-color: #414141;
   color: #f3f3f3;
   width: 250px;
+  
   display: block;
   text-align: center;
   padding: 10px;
@@ -174,7 +176,7 @@ body {
 .informations-tabs .information .projects {
   align-items: center;
   justify-content: center;
-  max-height: 180px;
+  max-height: 300px;
   overflow-y: auto;
   padding-right: 15px;
 }
